@@ -1,0 +1,157 @@
+/*
+	Colors
+
+	Lapis Azuli: 		#247BA0
+	Green Sheen: 		#70C1B3
+	Sea Foam Green: 	#B2DBBF
+	Very Pale Yellow: 	#F3FFBD
+	Awesome: 			#FF1654
+
+	Fonts
+		Menu: 	font-family: 'Press Start 2P', cursive; (<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">)
+		Resto:		font-family: 'Exo', sans-serif;	 (<link href="https://fonts.googleapis.com/css?family=Exo:300i,400,700" rel="stylesheet">)
+	
+*/
+
+/* MAIN PAGE */
+
+	html {
+		font-size: 100%;
+	}
+	body {
+		font-family: 'Exo', sans-serif;
+		background-color: #ffffff;
+		color: #000000;
+		line-height: 1.5;
+		padding: 4em 1em 1em 1em;
+	}
+	
+	body h1 {
+		font-weight: bold;
+		font-size: 150%;
+		text-transform: uppercase;
+		margin: .5em;
+		
+	}
+	
+	body h2 {
+		margin: 1em;
+		background-color: inherit;
+		padding: .5em;
+		color: #70C1B3;
+		font-weight: bold;
+		text-align: center;
+		border-bottom: .1em solid #70C1B3;
+		text-transform: uppercase;
+	}
+	
+	
+	p {
+		margin:.25em .75em
+	}
+	
+	blockquote {
+		margin: 1em auto;
+		font-style: italic;
+		text-align: center;
+		
+		background-color: #F3FFBD;
+		color: inherit;
+		border: .25em solid #B2DBBF;
+		border-radius: 2em;
+		width: 40%;		
+	}
+	
+	blockquote cite {
+		text-align: right;
+	}
+	
+	strong {
+		font-weight: bold;
+	}
+	
+	em {
+		font-style: italic;
+	}
+	
+	main {
+		float: left;
+		width: 69%;
+		padding-bottom: 40px;
+	}
+	
+	main a {
+		color: #ff1755;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+/*TOP MENU*/
+	.menu {
+		background-color: #247BA0;
+		font-family: 'Press Start 2P', cursive;
+		color: #ffffff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: inline;
+		box-sizing: border-box;
+		width: 100%;
+		padding: .5em .5em;
+	}
+	
+	.menu li {
+		display: inline-block;
+	}
+	
+	aside a {
+		background-color: #247ca1;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	
+	.menu-links {
+		float: left;
+	}
+	
+	.menu-icons {
+		text-align: right;
+		float: right;
+	}
+	
+	.twitter {
+		background-image: url(../img/twitter-menu-icon.png);
+		display: block;
+		width: 20px;
+	    height: 20px;
+	}	
+	
+	.facebook {
+		background-image: url(../img/facebook-menu-icon.png);
+		display: block;
+		width: 20px;
+	    height: 20px;
+	}
+	
+	.linkedin {
+		background-image: url(../img/linkedin-menu-icon.png);
+		display: block;
+		width: 20px;
+	    height: 20px;
+	}
+/* PAGE FOOTER */
+
+	.page-footer {
+		clear: both;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #ff1755;
+		box-sizing: border-box;
+		width: 100%;
+		padding: .05em .25em;
+		text-align: right;
+		color: #f1ffbc;	
+	}
+
