@@ -21,11 +21,12 @@
 	right: 0.5em;
 	width: 30%;
 	height: 60%;
+	margin-bottom: 5em;
 }
 
 figcaption {
-	font-style: italic;
 	font-size: 60%;
-	color: rgba(24, 30, 26, 0.47);
-	text-align: right;
+	color: rgba(157, 157, 157, 1);
+	background-color: inherit;
+	text-align: left;
 }
