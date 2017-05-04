@@ -1,15 +1,14 @@
 /*
 	Colors
 
-	Lapis Azuli: 		#247BA0
-	Green Sheen: 		#70C1B3
-	Sea Foam Green: 	#B2DBBF
-	Very Pale Yellow: 	#F3FFBD
-	Awesome: 			#FF1654
+	Preto do menu: 			#181e1a
+	Background do site: 	#fcfff2
+	Verde:					#7cc1b6
+	Azul:					#5088a0
+	Vermelho:				#af163f
 
-	Fonts
-		Pixelada: 	font-family: 'Press Start 2P', cursive; (<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">)
-		Resto:		font-family: 'Exo', sans-serif;	 (<link href="https://fonts.googleapis.com/css?family=Exo:300i,400,700" rel="stylesheet">)
+	Font
+		font-family: 'Exo', sans-serif;	 (<link href="https://fonts.googleapis.com/css?family=Exo:300i,400,700" rel="stylesheet">)
 	
 */
 
@@ -26,5 +25,7 @@
 
 figcaption {
 	font-style: italic;
+	font-size: 60%;
+	color: rgba(24, 30, 26, 0.47);
 	text-align: right;
 }
