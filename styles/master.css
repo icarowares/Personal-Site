@@ -1,15 +1,14 @@
 /*
 	Colors
 
-	Lapis Azuli: 		#247BA0
-	Green Sheen: 		#70C1B3
-	Sea Foam Green: 	#B2DBBF
-	Very Pale Yellow: 	#F3FFBD
-	Awesome: 			#FF1654
+	Preto do menu: 			#181e1a
+	Background do site: 	#fcfff2
+	Verde:					#7cc1b6
+	Azul:					#5088a0
+	Vermelho:				#af163f
 
-	Fonts
-		Menu: 	font-family: 'Press Start 2P', cursive; (<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">)
-		Resto:		font-family: 'Exo', sans-serif;	 (<link href="https://fonts.googleapis.com/css?family=Exo:300i,400,700" rel="stylesheet">)
+	Font
+		font-family: 'Exo', sans-serif;	 (<link href="https://fonts.googleapis.com/css?family=Exo:300i,400,700" rel="stylesheet">)
 	
 */
 
@@ -20,8 +19,8 @@
 	}
 	body {
 		font-family: 'Exo', sans-serif;
-		background-color: #ffffff;
-		color: #000000;
+		background-color: #fcfff2;
+		color: #181e1a;
 		line-height: 1.5;
 		padding: 4em 1em 1em 1em;
 	}
@@ -38,10 +37,10 @@
 		margin: 1em;
 		background-color: inherit;
 		padding: .5em;
-		color: #70C1B3;
+		color: #5088a0;
 		font-weight: bold;
 		text-align: center;
-		border-bottom: .1em solid #70C1B3;
+		border-bottom: .1em solid #5088a0;
 		text-transform: uppercase;
 	}
 	
@@ -55,9 +54,9 @@
 		font-style: italic;
 		text-align: center;
 		
-		background-color: #F3FFBD;
+		background-color: #fcfff2;
 		color: inherit;
-		border: .25em solid #B2DBBF;
+		border: .25em solid #7cc1b6;
 		border-radius: 2em;
 		width: 40%;		
 	}
@@ -81,16 +80,16 @@
 	}
 	
 	main a {
-		color: #ff1755;
+		color: #af163f;
 		text-decoration: none;
 		font-weight: bold;
 	}
 
 /*TOP MENU*/
 	.menu {
-		background-color: #247BA0;
-		font-family: 'Press Start 2P', cursive;
-		color: #ffffff;
+		background-color: #181e1a;
+		font-family: 'Exo', sans-serif;
+		color: #fcfff2;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -105,8 +104,8 @@
 	}
 	
 	aside a {
-		background-color: #247ca1;
-		color: #ffffff;
+		background-color: #181e1a;
+		color: #fcfff2;
 		text-decoration: none;
 	}
 	
@@ -147,11 +146,11 @@
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		background-color: #ff1755;
+		background-color: #181e1a;
 		box-sizing: border-box;
 		width: 100%;
 		padding: .05em .25em;
 		text-align: right;
-		color: #f1ffbc;	
+		color: #fcfff2;	
 	}
 
