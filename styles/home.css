@@ -30,3 +30,27 @@ figcaption {
 	background-color: inherit;
 	text-align: left;
 }
+
+.bio {
+	color: #7cc1b6;
+	background-color: inherit;
+	border-color: #7cc1b6;
+}
+
+.XP {
+	color: #dd9134;
+	background-color: inherit;
+	border-color: #dd9134;
+}
+
+.updates {
+	color: #a2ce73;
+	background-color: inherit;
+	border-color: #a2ce73;
+}
+
+.contact {
+	color: #7cc1b6;
+	background-color: inherit;
+	border-color: #7cc1b6;
+}
