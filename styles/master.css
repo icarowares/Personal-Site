@@ -81,6 +81,7 @@
 	
 	main a {
 		color: #af163f;
+		background-color: inherit;
 		text-decoration: none;
 		font-weight: bold;
 	}
@@ -103,41 +104,99 @@
 		display: inline-block;
 	}
 	
-	aside a {
-		background-color: #181e1a;
-		color: #fcfff2;
-		text-decoration: none;
-	}
-	
-	
+	/*PARTE ESQUERDA*/
 	.menu-links {
 		float: left;
 	}
 	
+	.menu-links li{
+		margin: 0 1em;
+		box-sizing: border-box;
+	}
+	
+	.link1:hover,
+	.link1:focus {
+		color: #af163f;
+		background-color: inherit;
+		border-bottom: 2px solid #af163f;
+		animation: menu-animation .5s ease-in-out;
+	}
+	
+	.link2:hover,
+	.link2:focus {
+		color: #7cc1b6;
+		background-color: inherit;
+		border-bottom: 2px solid #7cc1b6;
+		animation: menu-animation .5s ease-in-out;
+	}
+	
+	.link3:hover,
+	.link3:focus {
+		color: #dd9134;
+		background-color: inherit;
+		border-bottom: 2px solid #dd9134;
+		animation: menu-animation .5s ease-in-out;
+	}
+	
+	.link4:hover,
+	.link4:focus {
+		color: #a2ce73;
+		background-color: inherit;
+		border-bottom: 2px solid #a2ce73;
+		animation: menu-animation .5s ease-in-out;
+	}
+	
+	.link5:hover,
+	.link5:focus {
+		color: #7cc1b6;
+		background-color: inherit;
+		border-bottom: 2px solid #7cc1b6;
+		animation: menu-animation .5s ease-in-out;
+	}
+	
+	@keyframes menu-animation {
+		from {
+			transform: scale(1.1);
+			}
+		
+	}
+	
+	/*PARTE DIREITA*/
 	.menu-icons {
-		text-align: right;
 		float: right;
+		margin-right: 1em;
+	}
+	
+	.menu-icons li {
+		display: inline-block;
+		margin: 0 .3em;	
+		box-sizing: border-box;
+		font-size: 60%;
+		vertical-align: middle;
 	}
 	
 	.twitter {
 		background-image: url(../img/twitter-menu-icon.png);
-		display: block;
+		display: inline-block;
 		width: 20px;
 	    height: 20px;
+	    background-repeat: no-repeat;
 	}	
 	
 	.facebook {
 		background-image: url(../img/facebook-menu-icon.png);
-		display: block;
+		display: inline-block;
 		width: 20px;
 	    height: 20px;
+	    background-repeat: no-repeat;
 	}
 	
 	.linkedin {
 		background-image: url(../img/linkedin-menu-icon.png);
-		display: block;
+		display: inline-block;
 		width: 20px;
 	    height: 20px;
+	    background-repeat: no-repeat;
 	}
 /* PAGE FOOTER */
 
