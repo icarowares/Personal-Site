@@ -35,6 +35,7 @@
 	width: 30%;
 	height: 60%;
 	margin-bottom: 5em;
+	margin-left: .5em;
 	clear: right;
 	box-shadow: 2px 2px 5px black;
 }
@@ -92,28 +93,28 @@ figcaption {
 /* BUTTONS */
 
 .about_button {
-	margin: 2em 10em;
+	margin: 2em 10%;
 	text-align: center;
 	width: 5em;
 	float: right;
 }
 
 .xp_button {
-	margin: 2em 10em;
+	margin: 2em 10%;
 	text-align: center;
 	width: 10em;
 	float: right;
 }
 
 .contact_button {
-	margin: 2em 10em;
+	margin: 2em 10%;
 	text-align: center;
 	width: 10em;
 	float: right;
 }
 
 .updates_button {
-	margin: 2em 10em;
+	margin: 2em 10%;
 	text-align: center;
 	width: 10em;
 	float: right;

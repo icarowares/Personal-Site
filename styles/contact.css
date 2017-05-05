@@ -1,0 +1,75 @@
+.container {
+	width: 80%;
+	margin: 1em auto;
+	margin-bottom: 3em;
+}
+
+legend,
+label[for="message"] {
+    font-weight: bold;
+    margin-top: 1em;
+}
+label[for],
+button {
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.send_button {
+    border: 0;
+    padding: .5em 1em;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-top: 1em;
+}
+input:invalid {
+    box-shadow: 0 0 3px red;
+}
+input:focus,
+textarea:focus {
+    background-color: #FFD;
+}
+
+input[value="Other"] + input {
+    display: none;
+}
+input[value="Other"]:checked + input {
+    display: block;
+}
+.com-icone {
+    position: relative;
+    margin-bottom: 0;
+}
+.com-icone::after {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background-color: #71c2b5;
+    background-size: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 100%;
+}
+.com-icone + input {
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+    margin-top: 0;
+}
+.com-icone[for="name"]::after {
+    background-image: url(../img/user.png);
+}
+.com-icone[for="email"]::after {
+    background-image: url(../img/email.png);
+}
