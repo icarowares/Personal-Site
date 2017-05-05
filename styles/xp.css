@@ -1,0 +1,161 @@
+/*MAIN*/
+main {
+	width: 80%;
+	margin: auto;
+}
+
+.sub {
+	color: #dd9134;
+	background-image: linear-gradient(to right, rgba(222, 145, 53, 0), rgba(222, 145, 53, 1), rgba(222, 145, 53, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.summary {
+	text-align: center;	
+}
+
+.assig {
+	list-style-type: circle;
+	width: 80%;
+	margin: 2em auto;
+}
+
+
+
+/*TABLE*/
+.project_table {
+	border-collapse: separate;
+	border-spacing: .25em;
+	margin: 1em auto;
+	font-size: 80%;
+	width: 70%;
+}
+
+.project_table th {
+	font-weight: bold;
+	background-color: rgba(222, 145, 53, 0.71);
+	color: #fff;
+	padding: 1em;
+	vertical-align: middle;
+}
+
+.project_table td {
+	background-color: #f1ebc9;
+	padding: 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.project_table thead th {
+	background-color: #dd9134;
+	vertical-align: middle;
+}
+
+/*HEADER*/
+.header {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 10em;
+}
+
+.header h1, .header-sub {
+	text-align: center;
+}
+
+.header-words {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+.word {
+    font-weight: bold;
+    font-size: 400%;
+    color: rgba(222, 145, 53, .4);
+    position: absolute;
+}
+
+.a1 {
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+}
+
+.a2 {
+    top: 70%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+    opacity: .3;
+}
+.a3 {
+    top: 45%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+    opacity: .6;
+}
+.a4 {
+    top: 55%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+    opacity: .6;
+}
+.a5 {
+    top: 30%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}
+.a6 {
+    top: 15%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+}
+.a7 {
+    top: 30%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+    opacity: .8;
+}
+.a8 {
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+    opacity: .8;
+}
+.a9 {
+    top: 70%;
+    left: 65%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+    opacity: .6;
+}
+.a10 {
+    top: 75%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+    opacity: .3;
+}
+.a11 {
+    top: 40%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    opacity: .6;
+}

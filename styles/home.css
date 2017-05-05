@@ -12,6 +12,13 @@
 	
 */
 
+.main-home {
+	float: left;
+	width: 67%;
+	padding-bottom: 2em;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+	
 /* SIDE PIC */
 	
 .avatar {
