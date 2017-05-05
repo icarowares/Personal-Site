@@ -9,17 +9,27 @@ label[for="message"] {
     font-weight: bold;
     margin-top: 1em;
 }
+
 label[for],
 button {
     display: block;
 }
+
 input[type="text"],
-input[type="email"],
-textarea {
+input[type="email"] {
     font-family: inherit;
     font-size: 100%;
     padding: .25em .5em;
     width: 50%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 80%;
     box-sizing: border-box;
     border: 1px solid #ccc;
 }
@@ -31,9 +41,11 @@ textarea {
     margin-left: auto;
     margin-top: 1em;
 }
+
 input:invalid {
     box-shadow: 0 0 3px red;
 }
+
 input:focus,
 textarea:focus {
     background-color: #FFD;
@@ -45,10 +57,12 @@ input[value="Other"] + input {
 input[value="Other"]:checked + input {
     display: block;
 }
+
 .com-icone {
     position: relative;
     margin-bottom: 0;
 }
+
 .com-icone::after {
     content: '';
     position: absolute;
@@ -62,7 +76,7 @@ input[value="Other"]:checked + input {
     top: 100%;
 }
 .com-icone + input {
-    width: calc(100% - 2em);
+    width: calc(50% - 2em);
     position: relative;
     left: 2em;
     margin-top: 0;
