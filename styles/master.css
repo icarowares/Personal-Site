@@ -40,8 +40,8 @@
 		color: #5088a0;
 		font-weight: bold;
 		text-align: center;
-		border-bottom: .1em solid #5088a0;
 		text-transform: uppercase;
+		clear: both;
 	}
 	
 	
@@ -213,3 +213,54 @@
 		color: #fcfff2;	
 	}
 
+/* ELEMENTOS */
+	.button-light-green {
+		border: 2px solid #7cc1b6;
+		background-color: #7cc1b6;
+		border-radius: 5px;
+		color: #fcfff2;
+		padding: .2em .5em;
+		transition: .5s;
+	}
+	
+	.button-light-green:hover,
+	.button-light-green:focus {
+		border: 2px solid #b2dcc0;
+		background-color: #b2dcc0;
+		color: #181e1a;
+		box-shadow: 0px 0px 1em #af163f;
+	}
+		
+	.button-light-orange {
+		border: 2px solid #dd9134;
+		background-color: #dd9134;
+		border-radius: 5px;
+		color: #fcfff2;
+		padding: .2em .5em;
+		transition: .5s;
+	}
+	
+	.button-light-orange:hover,
+	.button-light-orange:focus {
+		border: 2px solid rgba(222, 145, 53, 0.71);
+		background-color: rgba(222, 145, 53, 0.71);
+		color: #181e1a;
+		box-shadow: 0px 0px 1em #af163f;
+	}
+	
+	.button-mid-green {
+		border: 2px solid #a2ce73;
+		background-color: #a2ce73;
+		border-radius: 5px;
+		color: #fcfff2;
+		padding: .2em .5em;
+		transition: .5s;
+	}
+	
+	.button-mid-green:hover,
+	.button-mid-green:focus {
+		border: 2px solid rgba(162, 206, 115, 0.69);
+		background-color: rgba(162, 206, 115, 0.69);
+		color: #181e1a;
+		box-shadow: 0px 0px 1em #af163f;
+	}

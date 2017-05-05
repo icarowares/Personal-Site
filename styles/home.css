@@ -16,12 +16,27 @@
 	
 .avatar {
 	float: right;
-	position: absolute;
-	top: 4em;
+	position: relative;
+	top: .5em;
+	right: .5em;
+	width: 30%;
+	margin-bottom: 1em;
+}
+
+.avatar img {
+	box-shadow: 2px 2px 5px black;
+}
+
+.twitter-timeline-panel {
+	float: right;
+	position: relative;
+	top: 3em;
 	right: 0.5em;
 	width: 30%;
 	height: 60%;
 	margin-bottom: 5em;
+	clear: right;
+	box-shadow: 2px 2px 5px black;
 }
 
 figcaption {
@@ -33,37 +48,102 @@ figcaption {
 
 /* BODY */
 .bio {
-	color: #7cc1b6;
-	background-color: inherit;
-	border-color: #7cc1b6;
+	color: #7cc1b6;	
+	background-image: linear-gradient(to right, rgba(113, 194, 181, 0), rgba(113, 194, 181, 1), rgba(113, 194, 181, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .XP {
 	color: #dd9134;
-	background-color: inherit;
-	border-color: #dd9134;
+	background-image: linear-gradient(to right, rgba(222, 145, 53, 0), rgba(222, 145, 53, 1), rgba(222, 145, 53, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .updates {
 	color: #a2ce73;
-	background-color: inherit;
-	border-color: #a2ce73;
+	background-image: linear-gradient(to right, rgba(164, 207, 117, 0), rgba(164, 207, 117, 1), rgba(164, 207, 117, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
 }
 
 .contact {
 	color: #7cc1b6;
-	background-color: inherit;
-	border-color: #7cc1b6;
+	background-image: linear-gradient(to right, rgba(113, 194, 181, 0), rgba(113, 194, 181, 1), rgba(113, 194, 181, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
-.panels {
-	display: flex;
-	padding: 0 15%;
+.spotify-panel {
+	margin: 2em auto;
+	text-align: center;	
 }
 
-.spotify-panel,
-.twitter-panel {
-	flex: 1 1 100%;
-	box-sizing: border-box;	
+.spotify-panel iframe{
+	box-shadow: 2px 2px 5px black;
+}
+
+/* BUTTONS */
+
+.about_button {
+	margin: 2em 10em;
+	text-align: center;
+	width: 5em;
+	float: right;
+}
+
+.xp_button {
+	margin: 2em 10em;
+	text-align: center;
+	width: 10em;
+	float: right;
+}
+
+.contact_button {
+	margin: 2em 10em;
+	text-align: center;
+	width: 10em;
+	float: right;
+}
+
+.updates_button {
+	margin: 2em 10em;
+	text-align: center;
+	width: 10em;
+	float: right;
+}
+/*TABLE*/
+.skill_table {
+	border-collapse: separate;
+	border-spacing: .25em;
+	margin: 1em auto;
+	font-size: 80%;
+	width: 70%;
+}
+
+.skill_table th {
+	font-weight: bold;
+	background-color: rgba(222, 145, 53, 0.71);
+	color: #fff;
+	padding: 1em;
+	vertical-align: middle;
+}
+
+.skill_table td {
+	background-color: #f1ebc9;
+	padding: 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.skill_table thead th {
+	background-color: #dd9134;
+	vertical-align: middle;
 }
 
