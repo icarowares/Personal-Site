@@ -97,16 +97,12 @@
 		display: inline;
 		box-sizing: border-box;
 		width: 100%;
-		padding: .5em .5em;
+		padding: .5em;
+		text-align: center;
 	}
 	
 	.menu li {
 		display: inline-block;
-	}
-	
-	/*PARTE ESQUERDA*/
-	.menu-links {
-		float: left;
 	}
 	
 	.menu-links li{
@@ -161,9 +157,24 @@
 		
 	}
 	
-	/*PARTE DIREITA*/
+/* PAGE FOOTER */
+
+	.page-footer {
+		clear: both;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #181e1a;
+		box-sizing: border-box;
+		width: 100%;
+		padding: .2em .25em;
+		text-align: right;
+		color: #fcfff2;	
+	}
+	
+	/*PARTE ESQUERDA*/
 	.menu-icons {
-		float: right;
+		float: left;
 		margin-right: 1em;
 	}
 	
@@ -198,20 +209,7 @@
 	    height: 20px;
 	    background-repeat: no-repeat;
 	}
-/* PAGE FOOTER */
 
-	.page-footer {
-		clear: both;
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		background-color: #181e1a;
-		box-sizing: border-box;
-		width: 100%;
-		padding: .05em .25em;
-		text-align: right;
-		color: #fcfff2;	
-	}
 
 /* ELEMENTOS */
 	.button-light-green {
